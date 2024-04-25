@@ -43,6 +43,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
+                            Gives a detailed list of task which you can perform!
 
                         </div>
                     </div>
