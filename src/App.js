@@ -50,13 +50,13 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar title="Anytext" aboutText="About" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="AnyText" aboutText="About" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
             <Route path="about" element={<About mode={mode} />}>
             </Route>
-            <Route path="/" element={<TextForm heading="AnyText - Enter Text to make it Bold, Count Words, Clear Text" mode={mode} showAlert={showAlert} />}>
+            <Route path="/" element={<TextForm heading="AnyText - Make text bold, count words, Clear text" mode={mode} showAlert={showAlert} />}>
             </Route>
           </Routes>
         </div>
